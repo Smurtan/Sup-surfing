@@ -249,6 +249,7 @@ img{
     text-align: center;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .popup__btn span{
@@ -257,20 +258,16 @@ img{
     color: #fff;
 }
 
-.popup__btn-svg{
-    cursor: pointer;
-}
-
-.popup__btn-svg path,
-.popup__btn-svg circle{
+.popup__btn path,
+.popup__btn circle{
     transition: .3s ease;
 }
 
-.popup__btn-svg:hover path{
+.popup__btn:hover path{
     fill: #B9C400;
 }
 
-.popup__btn-svg:hover circle{
+.popup__btn:hover circle{
     stroke: #B9C400;
 }
 
